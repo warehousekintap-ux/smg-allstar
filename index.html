@@ -44,9 +44,10 @@ h1 {
 /* Menu icon */
 .menu {
     margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    gap: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    justify-items: center;
 }
 
 .menu-item {
@@ -55,8 +56,9 @@ h1 {
 }
 
 .menu-item img {
-    width: 150px;
-    height: 150px;
+    width: 80%;
+    max-widht:150px;
+    height: auto;
     transition: 0.3s;
 }
 
@@ -119,4 +121,5 @@ linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
 
 </body>
 </html>
+
 
